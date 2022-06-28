@@ -11,7 +11,7 @@ const __sfc_main__ = {
   },
 };
 
-__sfc_main__.__scopeId='data-v-1656418152414'
+__sfc_main__.__scopeId='data-v-1656419171479'
 import { toDisplayString as _toDisplayString, openBlock as _openBlock, createElementBlock as _createElementBlock } from "vue"
 
 const _hoisted_1 = { class: "message" }
@@ -24,7 +24,7 @@ export default __sfc_main__
 
       var el = document.createElement('style')
       el.innerHTML =  `
-.message[data-v-1656418152414] {
+.message[data-v-1656419171479] {
   font-size: 60px;
   font-weight: 900;
 }

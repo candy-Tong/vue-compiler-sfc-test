@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "esno index.ts",
-    "dev2": "esno src/build.ts"
+    "dev": "esno src/build.ts"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",

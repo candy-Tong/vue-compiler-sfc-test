@@ -37,11 +37,21 @@ var __sfc_main__ = {
     };
   }
 };
+__sfc_main__.__scopeId = "data-v-1656418152414";
+var _hoisted_1 = { class: "message" };
 function render(_ctx, _cache) {
-  return (0, import_vue2.openBlock)(), (0, import_vue2.createElementBlock)("div", null, (0, import_vue2.toDisplayString)(_ctx.message), 1);
+  return (0, import_vue2.openBlock)(), (0, import_vue2.createElementBlock)("div", _hoisted_1, (0, import_vue2.toDisplayString)(_ctx.message), 1);
 }
 __sfc_main__.render = render;
 var build_temp_default = __sfc_main__;
+var el = document.createElement("style");
+el.innerHTML = `
+.message[data-v-1656418152414] {
+  font-size: 60px;
+  font-weight: 900;
+}
+`;
+document.body.append(el);
 export {
   build_temp_default as default,
   render

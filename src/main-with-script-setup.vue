@@ -15,6 +15,10 @@ export default {
   },
 };
 </script>
+<script setup>
+const test = ref(1);
+console.log(test);
+</script>
 
 <style scoped>
 .message {

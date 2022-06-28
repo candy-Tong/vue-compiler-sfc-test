@@ -11,6 +11,7 @@ export default {
     const message = ref("Main");
     return {
       message,
+      color: "red",
     };
   },
 };
@@ -20,5 +21,6 @@ export default {
 .message {
   font-size: 60px;
   font-weight: 900;
+  color: v-bind(color);
 }
 </style>

@@ -2,16 +2,12 @@
 <html lang="en">
 <head>
     <script src="https://unpkg.com/vue@next"></script>
-    <meta charset="UTF-8">
-    <title>Title</title>
 </head>
 <body>
-<div id="counter">
-    Counter: {{ counter }}
-</div>
+<div id="app"></div>
 </body>
 <script type="module">
     import Comp from './bundle.js'
-    Vue.createApp(Comp).mount('#counter')
+    Vue.createApp(Comp).mount('#app')
 </script>
 </html>
